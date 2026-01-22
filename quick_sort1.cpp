@@ -1,3 +1,6 @@
+#经典快排的朴素版本
+#https://www.luogu.com.cn/problem/P1177
+#会TLE
 #include <iostream>
 #include <random>
 
@@ -43,3 +46,4 @@ int main()
  
  //	quick_sort()
 } 
+
