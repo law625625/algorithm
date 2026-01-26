@@ -1,3 +1,4 @@
+//#https://www.luogu.com.cn/problem/P1177
 #include <iostream>
 using namespace std;
 const int N=1e6+10;
@@ -30,3 +31,4 @@ int main()
  
  //	quick_sort()
 }
+
