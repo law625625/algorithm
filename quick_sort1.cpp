@@ -33,7 +33,7 @@ void quick_sort(int l,int r)
 	if(l>=r)return ;
     int x=a[l+r>>1];
     int mid=partition(l,r,x);
-    quick_sort(l,mid-1)
+    quick_sort(l,mid-1),quick_sort(mid+1,r);
 		
 }
 int main()
@@ -46,4 +46,5 @@ int main()
  
  //	quick_sort()
 } 
+
 
